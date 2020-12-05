@@ -1,0 +1,42 @@
+.msg{
+    display: flex;
+    padding: 10px;
+ }
+ .msg .bot{
+    margin-right: 10%;
+ }
+ .content{
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 10px;
+ }
+ 
+ .bot .content{
+    border-top-left-radius: 0px;
+    background-color: azure;
+ }
+ .bot::before{
+    content: "";
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-image: url(../asserts/bot-icon-14.jpg);
+    background-size: cover;
+ }
+ 
+ .msg .user{
+    margin-left:5%;
+ }
+ 
+ .user .content{
+    border-top-left-radius: 0px;
+    background-color: whitesmoke;
+ }
+ .user::before{
+   content: "";
+   width: 64px;
+   height: 64px;
+   border-radius: 32px;
+   background-image: url(../asserts/bot-icon-14.jpg);
+   background-size: cover;
+}
